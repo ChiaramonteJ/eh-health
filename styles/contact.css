@@ -1,0 +1,98 @@
+/* Main Page Styles */
+.contact-page {
+    background-color: #f5f3ee; /* Creamy Off-White */
+    color: #8c5e58; /* Burnt Umber */
+  }
+  
+  .contact-page h1 {
+    font-size: 2.5rem;
+    color: #8c5e58; /* Burnt Umber */
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #ffffff; /* White */
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .card h2 {
+    font-size: 1.8rem;
+    color: #8c5e58; /* Burnt Umber */
+    margin-bottom: 1rem;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card ul li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .card ul li a {
+    color: #d6856d; /* Terracotta */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .card ul li a:hover {
+    color: #8c5e58; /* Burnt Umber */
+  }
+  
+  /* Social Media Links */
+  .contact-page .bi {
+    color: #8c5e58; /* Burnt Umber */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact-page .bi:hover {
+    color: #d6856d; /* Terracotta */
+    transform: scale(1.1); /* Subtle hover effect */
+  }
+  
+  /* Additional Info Section */
+  .contact-page p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #6c757d; /* Muted text */
+  }
+  
+  .contact-page .text-center {
+    margin-top: 2rem;
+  }
+  
+  .contact-page .text-center p {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .card {
+      padding: 1rem;
+    }
+  
+    .card h2 {
+      font-size: 1.5rem;
+    }
+  
+    .contact-page h1 {
+      font-size: 2rem;
+    }
+  
+    .contact-page p {
+      font-size: 0.9rem;
+    }
+  
+    .contact-page .bi {
+      font-size: 1.5rem;
+    }
+  }
+  

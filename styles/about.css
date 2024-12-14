@@ -1,0 +1,113 @@
+/* Hero Section */
+.about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hero/about-hero-bg.jpg') center/cover no-repeat;
+    height: 50vh; /* Half-screen height */
+    color: #f5f3ee; /* Creamy Off-White */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-hero .btn-primary {
+    background-color: #d6856d; /* Terracotta */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-hero .btn-primary:hover {
+    background-color: #8c5e58; /* Burnt Umber */
+  }
+  
+  .about-hero .btn-secondary {
+    background-color: #a3b5a6; /* Sage Green */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-hero .btn-secondary:hover {
+    background-color: #8c5e58; /* Burnt Umber */
+  }
+  
+  /* About the Business Section */
+  .about-business {
+    background-color: #f5f3ee; /* Creamy Off-White */
+    color: #8c5e58; /* Burnt Umber */
+    line-height: 1.8;
+  }
+  
+  .about-business h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8c5e58; /* Burnt Umber */
+  }
+  
+  .about-business ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .about-business ul li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #6c757d; /* Muted text */
+  }
+  
+  .about-business p {
+    font-size: 1rem;
+    color: #6c757d; /* Muted text */
+  }
+  
+  /* Meet the Owner Section */
+  .about-owner {
+    color: #8c5e58; /* Burnt Umber */
+  }
+  
+  .about-owner h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8c5e58; /* Burnt Umber */
+  }
+  
+  .about-owner img {
+    max-width: 100%;
+    border-radius: 50%; /* Circular image */
+    border: 5px solid #d6856d; /* Terracotta border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-owner p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #6c757d; /* Muted text */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .about-hero h1 {
+      font-size: 2rem;
+    }
+  
+    .about-business h2,
+    .about-owner h2 {
+      font-size: 2rem;
+    }
+  
+    .about-owner img {
+      max-width: 150px;
+    }
+  
+    .about-owner .row {
+      flex-direction: column;
+    }
+  
+    .about-owner .col-md-4,
+    .about-owner .col-md-8 {
+      text-align: center;
+    }
+  }
+  
