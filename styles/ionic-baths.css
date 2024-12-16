@@ -1,0 +1,88 @@
+/* Shared Styles for Services Pages */
+
+#pemf-therapy, #red-light-therapy, #ionic-foot-baths {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header and Intro Section */
+#pemf-therapy .display-4, #red-light-therapy .display-4, #ionic-foot-baths .display-4 {
+    color: #8C5E58; /* Burnt Umber */
+    margin-bottom: 20px;
+}
+
+#pemf-therapy .lead, #red-light-therapy .lead, #ionic-foot-baths .lead {
+    color: #A3B5A6; /* Sage Green */
+    font-size: 1.25rem;
+}
+
+/* Benefits Section */
+#pemf-therapy h2, #red-light-therapy h2, #ionic-foot-baths h2 {
+    color: #D6856D; /* Terracotta */
+    border-bottom: 2px solid #D9C2AD; /* Sandstone Beige */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#pemf-therapy ul, #red-light-therapy ul, #ionic-foot-baths ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#pemf-therapy ul li, #red-light-therapy ul li, #ionic-foot-baths ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Contact Section */
+#pemf-therapy p, #red-light-therapy p, #ionic-foot-baths p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#pemf-therapy .btn, #red-light-therapy .btn, #ionic-foot-baths .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#pemf-therapy .btn-primary, #red-light-therapy .btn-primary, #ionic-foot-baths .btn-primary {
+    background-color: #D4A86A; /* Mustard Yellow */
+    border-color: #D4A86A;
+    color: #fff;
+}
+
+#pemf-therapy .btn-primary:hover, #red-light-therapy .btn-primary:hover, #ionic-foot-baths .btn-primary:hover {
+    background-color: #C49DA3; /* Dusty Rose */
+    border-color: #C49DA3;
+    transform: scale(1.1);
+}
+
+#pemf-therapy .btn-secondary, #red-light-therapy .btn-secondary, #ionic-foot-baths .btn-secondary {
+    background-color: #A3B5A6; /* Sage Green */
+    border-color: #A3B5A6;
+    color: #fff;
+}
+
+#pemf-therapy .btn-secondary:hover, #red-light-therapy .btn-secondary:hover, #ionic-foot-baths .btn-secondary:hover {
+    background-color: #8C5E58; /* Burnt Umber */
+    border-color: #8C5E58;
+    transform: scale(1.1);
+}
+
+/* General Responsiveness */
+@media (max-width: 768px) {
+    #pemf-therapy .display-4, #red-light-therapy .display-4, #ionic-foot-baths .display-4 {
+        font-size: 2rem;
+    }
+
+    #pemf-therapy ul, #red-light-therapy ul, #ionic-foot-baths ul {
+        padding-left: 15px;
+    }
+
+    #pemf-therapy .btn, #red-light-therapy .btn, #ionic-foot-baths .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
