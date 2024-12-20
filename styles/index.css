@@ -94,7 +94,15 @@
   .carousel-control-next-icon:hover {
     background-color: #d6856d; /* Terracotta */
   }
-  
+
+  /* Hover Effect for Containers */
+#index-services {
+    background-color: #F5F3EE; /* Light background highlight */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transform: scale(1.02); /* Slightly enlarge the container */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
   /* Responsive Adjustments */
   @media (max-width: 768px) {
     .index-hero h1 {
