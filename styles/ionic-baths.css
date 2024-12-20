@@ -70,6 +70,13 @@
     border-color: #8C5E58;
     transform: scale(1.1);
 }
+/* Hover Effect for Containers */
+#pemf-therapy:hover, #red-light-therapy:hover, #ionic-baths:hover {
+    background-color: #F5F3EE; /* Light background highlight */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transform: scale(1.02); /* Slightly enlarge the container */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
 
 /* General Responsiveness */
 @media (max-width: 768px) {
