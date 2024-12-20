@@ -1,0 +1,88 @@
+/* equi-vibe Page Styles */
+
+#equi-vibe {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header and Intro Section */
+#equi-vibe .display-4 {
+    color: #8C5E58; /* Burnt Umber */
+    margin-bottom: 20px;
+}
+
+#equi-vibe .lead {
+    color: #A3B5A6; /* Sage Green */
+    font-size: 1.25rem;
+}
+
+/* Benefits Section */
+#equi-vibe h2 {
+    color: #D6856D; /* Terracotta */
+    border-bottom: 2px solid #D9C2AD; /* Sandstone Beige */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#equi-vibe ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#equi-vibe ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Contact Section */
+#equi-vibe p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#equi-vibe .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#equi-vibe .btn-primary {
+    background-color: #D4A86A; /* Mustard Yellow */
+    border-color: #D4A86A;
+    color: #fff;
+}
+
+#equi-vibe .btn-primary:hover {
+    background-color: #C49DA3; /* Dusty Rose */
+    border-color: #C49DA3;
+    transform: scale(1.1);
+}
+
+#equi-vibe .btn-secondary {
+    background-color: #A3B5A6; /* Sage Green */
+    border-color: #A3B5A6;
+    color: #fff;
+}
+
+#equi-vibe .btn-secondary:hover {
+    background-color: #8C5E58; /* Burnt Umber */
+    border-color: #8C5E58;
+    transform: scale(1.1);
+}
+
+/* General Responsiveness */
+@media (max-width: 768px) {
+    #equi-vibe .display-4 {
+        font-size: 2rem;
+    }
+
+    #equi-vibe ul {
+        padding-left: 15px;
+    }
+
+    #equi-vibe .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}

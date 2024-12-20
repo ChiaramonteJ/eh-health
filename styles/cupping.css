@@ -1,0 +1,88 @@
+/* cupping Page Styles */
+
+#cupping {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header and Intro Section */
+#cupping .display-4 {
+    color: #8C5E58; /* Burnt Umber */
+    margin-bottom: 20px;
+}
+
+#cupping .lead {
+    color: #A3B5A6; /* Sage Green */
+    font-size: 1.25rem;
+}
+
+/* Benefits Section */
+#cupping h2 {
+    color: #D6856D; /* Terracotta */
+    border-bottom: 2px solid #D9C2AD; /* Sandstone Beige */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#cupping ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#cupping ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Contact Section */
+#cupping p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#cupping .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#cupping .btn-primary {
+    background-color: #D4A86A; /* Mustard Yellow */
+    border-color: #D4A86A;
+    color: #fff;
+}
+
+#cupping .btn-primary:hover {
+    background-color: #C49DA3; /* Dusty Rose */
+    border-color: #C49DA3;
+    transform: scale(1.1);
+}
+
+#cupping .btn-secondary {
+    background-color: #A3B5A6; /* Sage Green */
+    border-color: #A3B5A6;
+    color: #fff;
+}
+
+#cupping .btn-secondary:hover {
+    background-color: #8C5E58; /* Burnt Umber */
+    border-color: #8C5E58;
+    transform: scale(1.1);
+}
+
+/* General Responsiveness */
+@media (max-width: 768px) {
+    #cupping .display-4 {
+        font-size: 2rem;
+    }
+
+    #cupping ul {
+        padding-left: 15px;
+    }
+
+    #cupping .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
